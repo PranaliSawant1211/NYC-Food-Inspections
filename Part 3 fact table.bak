@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1038" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:nyc_food_inspection_sqlserver|||select stg_nyc_foodInspection_format.* 
+from stg_nyc_foodInspection_format</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:nyc_food_inspection_sqlserver
+Query=select stg_nyc_foodInspectio...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMIS" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Int32" />
+            <Field name="DBA" size="95" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_WString" />
+            <Field name="BORO" size="13" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_String" />
+            <Field name="BUILDING" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_WString" />
+            <Field name="STREET" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_String" />
+            <Field name="ZIPCODE" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="PHONE" size="12" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="CUISINE DESCRIPTION" size="30" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_String" />
+            <Field name="INSPECTION DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="ACTION" size="130" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_String" />
+            <Field name="VIOLATION CODE" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="VIOLATION DESCRIPTION" size="1000" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_WString" />
+            <Field name="CRITICAL FLAG" size="14" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="SCORE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Int16" />
+            <Field name="GRADE" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="GRADE DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_String" />
+            <Field name="RECORD DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="INSPECTION TYPE" size="59" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="V_String" />
+            <Field name="Latitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Double" />
+            <Field name="Longitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Double" />
+            <Field name="Community Board" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Int16" />
+            <Field name="Council District" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="Census Tract" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="BIN" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Int32" />
+            <Field name="BBL" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Int64" />
+            <Field name="NTA" size="4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="Location Point" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Bool" />
+            <Field name="DI_WorkflowFileName" size="49" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="DateTime" />
+            <Field name="InspectionDate_DF" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Date" />
+            <Field name="GradeDate_DF" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Date" />
+            <Field name="RecordDate_DF" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=NycFoodInspection;SERVER=DESKTOP-OEM767L\MYSQLSERVER;Trusted_Connection=yes|||select stg_nyc_foodInspection_format.* &#xA;from stg_nyc_foodInspection_format" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1182" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="FileGetDir(&quot;C:\Users\Pranali\Downloads\NYC-Food_Inspection&quot;)" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_WorkflowDirectory = FileGetDir("C:\Users\Pranali\Downloads\NYC-Food_Inspectio...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1350" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PHONE" selected="True" />
+            <SelectField field="INSPECTION DATE" selected="True" type="DateTime" size="19" />
+            <SelectField field="VIOLATION DESCRIPTION" selected="False" size="254" />
+            <SelectField field="DI_WorkflowFileName" selected="True" type="V_WString" size="256" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" size="256" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1350" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Part 3 fact table</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1e026196-9caa-4ff2-86f5-ea55f9017c96" />
+      <Telemetry>
+        <PreviousWorkflowId value="a9a51b98-84cd-470d-a06a-578828aa8a28" />
+        <OriginWorkflowId value="a9a51b98-84cd-470d-a06a-578828aa8a28" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
